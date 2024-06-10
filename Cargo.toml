@@ -1,0 +1,13 @@
+[package]
+name = "extract-text-extism"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = "1.0.86"
+extism-pdk = "1.1.0"
+lol_html = "1.2.1"
