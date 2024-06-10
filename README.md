@@ -31,7 +31,7 @@ Here is an example of how to use the `extract` function using [assembllm](https:
 name: "Extracted text summary"
 description: |
   Using a prescript, get the contents of a remote URL, then use a wasm file to extract text from the content.  
-  Finally, send the extracted text the LLM to summarize the content.
+  Finally, send the extracted text to the LLM to summarize the content.
 
 tasks:
   - name: summarize
